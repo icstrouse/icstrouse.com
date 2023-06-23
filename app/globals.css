@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   main {
-    @apply font-maven-pro;
+    @apply font-lato;
   }
   
   h1 {
-    @apply text-5xl font-semibold;
+    @apply text-5xl;
   }
   
   h2 {
-    @apply text-3xl font-medium;
+    @apply text-3xl;
   }
   
   h3 {
-    @apply text-2xl font-medium;
+    @apply text-2xl;
   }
   
   h4 {
-    @apply text-xl font-medium;
+    @apply text-xl;
+  }
+
+  p {
+    @apply font-light;
   }
 }
 

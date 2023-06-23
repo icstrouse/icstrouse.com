@@ -1,20 +1,18 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faMedium, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
     <main>
       <div className="container max-w-full h-screen bg-zinc-900 text-slate-300">
-        <div className="h-screen flex flex-row items-center justify-center">
+        <div className="flex flex-row h-screen items-center justify-center">
 
           {/* LEFT SIDE */}
           <div className="basis-1/2 p-20 items-center">
             <div className="flex justify-center">
               <h3>ABOUT ME</h3>
             </div>
-
-            {/* <h4 className="mt-12 text-xl">Developer with 7 years of experience.</h4> */}
 
             <p className="mt-10 text-lg text-justify">I’m a web developer with 7 years of experience, primarily in backend engineering. Coming from a liberal arts background, I began my journey with a focus on people, but quickly developed my technical chops, learning IT and software development. I am now an experienced engineer specializing in the design and development of APIs, SQL databases, and systems architecture.</p>
             
@@ -53,12 +51,6 @@ export default function Home() {
               <a className="m-2" href="https://medium.com/@icstrouse" target="_blank">
                 <FontAwesomeIcon className="text-2xl hover:text-slate-500" icon={faMedium} />
               </a>
-              {/* <a className="m-2" href="https://twitter.com/icstrouse" target="_blank">
-                <FontAwesomeIcon className="text-2xl hover:text-slate-500" icon={faTwitter} />
-              </a>
-              <a className="m-2" href="https://www.instagram.com/icstrouse/" target="_blank">
-                <FontAwesomeIcon className="text-2xl hover:text-slate-500" icon={faInstagram} />
-              </a> */}
             </div>
           </div>
         </div>
