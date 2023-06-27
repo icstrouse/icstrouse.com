@@ -4,6 +4,10 @@
 @tailwind utilities;
 
 @layer base {
+  /* html {
+    @apply bg-zinc-100 text-slate-800 dark:bg-zinc-900 dark:text-slate-300;
+  } */
+
   main {
     @apply font-lato;
   }
