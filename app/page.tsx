@@ -38,7 +38,7 @@ export default function Home() {
           </div>
 
           {/* BOTTOM / LEFT SIDE */}
-          <div className="basis-1/2 p-20 items-center">
+          <div className="basis-1/2 py-20 px-10 lg:p-20 items-center">
             <div className="flex justify-center">
               <h3>ABOUT ME</h3>
             </div>
