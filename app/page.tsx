@@ -11,7 +11,7 @@ export default function Home() {
           {/* TOP / RIGHT */}
           <div className="basis-1/2 flex flex-col items-center justify-center mt-20 lg:mt-0">
             <h1>Ian Strouse</h1>
-            <h2 className="mt-5">Full-Stack Web Developer</h2>
+            <h2 className="mt-5">Full-Stack Web Engineer</h2>
 
             <Image
               className="mt-10 shadow-md shadow-black/30 dark:shadow-black"
@@ -43,7 +43,7 @@ export default function Home() {
               <h3>ABOUT ME</h3>
             </div>
 
-            <p className="mt-10 text-lg text-justify">I’m a web developer with 7 years of experience, primarily in backend engineering. Coming from a liberal arts background, I began my journey with a focus on people, but quickly developed my technical chops, learning IT and software development. I am now an experienced engineer specializing in the design and development of APIs, SQL databases, and systems architecture.</p>
+            <p className="mt-10 text-lg text-justify">I’m a web engineer with 7 years of experience, primarily in backend engineering. Coming from a liberal arts background, I began my journey with a focus on people, but quickly developed my technical chops, learning IT and software development. I am now an experienced engineer specializing in the design and development of APIs, SQL databases, and systems architecture. My passion has always been bridging the divide between people and tech.</p>
             
             <div className="flex justify-center mt-16 ">
               <a
