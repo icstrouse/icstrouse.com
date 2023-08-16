@@ -48,7 +48,7 @@ export default function Home() {
             <div className="flex justify-center mt-16 ">
               <a
                 className="flex justify-center pt-1 h-10 w-28 text-lg font-bold rounded-sm shadow-md shadow-black/30 dark:shadow-black bg-slate-800 text-zinc-100 dark:bg-slate-200 dark:text-zinc-900 transition-colors ease-in-out hover:bg-slate-400 hover:dark:bg-slate-500"
-                href="/Ian_Strouse_Resume.pdf"
+                href="/Ian Strouse Resume.pdf"
                 target="_blank"
               >Resume</a>
             </div>
