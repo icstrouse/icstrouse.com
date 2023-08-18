@@ -15,7 +15,7 @@ export default function Home() {
 
             <Image
               className="mt-10 shadow-md shadow-black/30 dark:shadow-black"
-              src="/public/profilePic2019.jpg"
+              src="/profilePic2019.jpg"
               alt="Profile Pic"
               width={400}
               height={400}
