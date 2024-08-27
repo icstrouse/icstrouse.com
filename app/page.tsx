@@ -1,6 +1,11 @@
+'use client'
+
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
+
+import { CIcon } from '@coreui/icons-react'
+import { cibLinkedinIn, cibGithub, cibLeetcode } from '@coreui/icons'
 
 export default function Home() {
   return (
@@ -25,14 +30,17 @@ export default function Home() {
             <h4 className="mt-10">CONNECT WITH ME</h4>
 
             <div className="flex flex-row">
-              <a className="m-2" href="https://github.com/icstrouse" target="_blank">
-                <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faGithub} />
-              </a>
               <a className="m-2" href="https://www.linkedin.com/in/ian-strouse/" target="_blank">
-                <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faLinkedin} />
+                {/* <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faLinkedin} /> */}
+                <CIcon className="h-6 w-6 text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={cibLinkedinIn} />
               </a>
-              <a className="m-2" href="https://medium.com/@icstrouse" target="_blank">
-                <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faMedium} />
+              <a className="m-2" href="https://github.com/icstrouse" target="_blank">
+                {/* <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faGithub} /> */}
+                <CIcon className="h-6 w-6 text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={cibGithub} />
+              </a>
+              <a className="m-2" href="https://leetcode.com/u/icstrouse/" target="_blank">
+                {/* <FontAwesomeIcon className="text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={faMedium} /> */}
+                <CIcon className="h-6 w-6 text-2xl transition-colors ease-in-out hover:text-slate-400 hover:dark:text-slate-500" icon={cibLeetcode} />
               </a>
             </div>
           </div>
