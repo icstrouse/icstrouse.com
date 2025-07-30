@@ -30,3 +30,4 @@ Run the SQL scripts in the `scripts/` folder:
 2. `scripts/02-seed-data.sql`
 
 Visit `/test-db` to verify your database connection.
+x
