@@ -12,7 +12,7 @@ export default function Home() {
     {
       icon: <Server className="h-8 w-8" />,
       title: "Backend Development",
-      description: "Node.js, Python, API Design, Microservices",
+      description: "Node.js, Ruby on Rails, API Design, Microservices",
     },
     {
       icon: <Database className="h-8 w-8" />,

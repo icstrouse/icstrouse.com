@@ -1,21 +1,21 @@
 import type { Config } from "tailwindcss"
-import defaultConfig from "shadcn/ui/tailwind.config"
+// import defaultConfig from "@shadcn/ui/tailwind.config"
 
 const config: Config = {
-  ...defaultConfig,
+  // ...defaultConfig,
   content: [
-    ...defaultConfig.content,
+    // ...defaultConfig.content,
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    ...defaultConfig.theme,
+    // ...defaultConfig.theme,
     extend: {
-      ...defaultConfig.theme.extend,
+      // ...defaultConfig.theme.extend,
       colors: {
-        ...defaultConfig.theme.extend.colors,
+        // ...defaultConfig.theme.extend.colors,
         background: "rgb(2 6 23)", // slate-950
         foreground: "rgb(248 250 252)", // slate-50
         border: "rgb(51 65 85)", // slate-600
@@ -44,7 +44,11 @@ const config: Config = {
       },
     },
   },
-  plugins: [...defaultConfig.plugins, require("@tailwindcss/typography"), require("tailwindcss-animate")],
+  plugins: [
+    // ...defaultConfig.plugins,
+    require("@tailwindcss/typography"),
+    require("tailwindcss-animate"),
+  ],
 }
 
 export default config

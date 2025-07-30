@@ -41,7 +41,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/ianstrouse"
+                href="https://github.com/icstrouse"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-white transition-colors"
@@ -49,14 +49,14 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com/in/ianstrouse"
+                href="https://linkedin.com/in/ian-strouse"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="mailto:ian@example.com" className="text-slate-400 hover:text-white transition-colors">
+              <a href="mailto:ian.strouse@gmail.com" className="text-slate-400 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
