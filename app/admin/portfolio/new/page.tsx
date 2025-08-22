@@ -77,7 +77,7 @@ export default function NewPortfolioProject() {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch("/api/admin/portfolio", {
+      const response = await fetch("/admin/api/portfolio", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

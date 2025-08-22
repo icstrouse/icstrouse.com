@@ -12,7 +12,7 @@ export default function Home() {
     {
       icon: <Server className="h-8 w-8" />,
       title: "Backend Development",
-      description: "Node.js, Ruby on Rails, API Design, Microservices",
+      description: "Ruby on Rails, Node.js, API Design, Microservices",
     },
     {
       icon: <Database className="h-8 w-8" />,
@@ -136,7 +136,7 @@ export default function Home() {
             I'm always interested in new opportunities and exciting projects.
           </p>
           <a
-            href="mailto:ian@example.com"
+            href="mailto:ian.strouse@gmail.com"
             className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors text-lg"
           >
             Get In Touch

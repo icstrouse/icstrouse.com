@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { Save, Eye } from "lucide-react"
@@ -40,7 +39,7 @@ export default function NewBlogPost() {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch("/api/admin/blog", {
+      const response = await fetch("/admin/api/blog", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -10,7 +10,7 @@ const getDatabaseUrl = () => {
     process.env.POSTGRES_URL_NON_POOLING,
   ]
 
-  return urls.find(Boolean) || null
+  return urls.find(Boolean) || undefined
 }
 
 const databaseUrl = getDatabaseUrl()
